@@ -10,13 +10,9 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [
-        "onCommand:extension.kanonji.vim-save"
-    ],
-    "main": "./out/src/extension",
     "contributes": {
         "commands": [{
-            "command": "extension.kanonji.vim-save",
+            "command": "workbench.action.files.save",
             "title": ":w (Save)"
         }]
     },
